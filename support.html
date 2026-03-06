@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GRIOT Support - Help and troubleshooting for the African Voice Translator app">
+    <title>GRIOT Support - Help & Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 3em;
+            font-weight: 900;
+            letter-spacing: 6px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin: 20px 0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #000000;
+            font-size: 2em;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #000000;
+        }
+        
+        h3 {
+            color: #000000;
+            font-size: 1.4em;
+            margin: 30px 0 15px 0;
+        }
+        
+        h4 {
+            color: #333;
+            font-size: 1.1em;
+            margin: 20px 0 10px 0;
+        }
+        
+        p, li {
+            margin: 10px 0;
+            font-size: 1.05em;
+        }
+        
+        ol, ul {
+            margin-left: 30px;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .tip {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #2196F3;
+        }
+        
+        .warning {
+            background: #ffcdcd;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #ff0707;
+        }
+        
+        .faq {
+            background: #f5f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .contact a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 2px solid white;
+        }
+        
+        .contact a:hover {
+            opacity: 0.8;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.95em;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+                letter-spacing: 3px;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GRIOT</h1>
+            <div class="subtitle">Support & Help</div>
+        </header>
+        
+        <div class="content">
+            <h2>📖 Getting Started</h2>
+            
+            <div class="step">
+                <h3>1. Grant Microphone Permission</h3>
+                <ol>
+                    <li>Tap the microphone button on the main screen</li>
+                    <li>When prompted, tap <strong>"Allow"</strong> to grant microphone access</li>
+                    <li>This permission is required for voice translation to work</li>
+                </ol>
+            </div>
+            
+            <div class="step">
+                <h3>2. Select Your Languages</h3>
+                <ol>
+                    <li>Tap on the <strong>source language</strong> (left side) to choose what language you'll speak</li>
+                    <li>Tap on the <strong>target language</strong> (right side) to choose the translation language</li>
+                    <li>Use the ⇄ button to quickly swap languages</li>
+                </ol>
+            </div>
+            
+            <div class="step">
+                <h3>3. Start Translating</h3>
+                <ol>
+                    <li>Tap the large circular <strong>microphone button</strong></li>
+                    <li>Speak clearly in your selected language</li>
+                    <li>Wait for the translation to appear</li>
+                    <li>The translation will automatically be spoken aloud</li>
+                </ol>
+            </div>
+            
+            <h2>✨ Features</h2>
+            
+            <h3>💬 Conversation Mode</h3>
+            <p>For real-time back-and-forth conversations:</p>
+            <ol>
+                <li>Tap the <strong>💬 Conversation Mode</strong> button</li>
+                <li>Speak your phrase and wait for translation</li>
+                <li>Hand the phone to the other person</li>
+                <li>They can tap the mic and respond in their language</li>
+                <li>You can switch between continous and manual for translations</li>
+                <li>The conversation is saved in the chat history</li>
+            </ol>
+            
+            <h3>🔍 Auto-Detect Language</h3>
+            <p>Don't know what language someone is speaking?</p>
+            <ol>
+                <li>Tap the source language (left side)</li>
+                <li>Select <strong>🔍 Auto-Detect</strong> from the menu</li>
+                <li>GRIOT will automatically identify the spoken language</li>
+                <li>Perfect for multi-language environments</li>
+            </ol>
+            
+            <h3>📦 Offline Mode</h3>
+            <p>Common phrases work without internet:</p>
+            <ul>
+                <li>Greetings (Hello, Good morning, etc.)</li>
+                <li>Basic phrases (Thank you, Please, Yes, No)</li>
+                <li>Essential questions (How are you?, How much?)</li>
+                <li>Emergency phrases (I need help, Where is...?)</li>
+            </ul>
+            <p>Look for the <strong>📦 Works Offline</strong> badge on translations.</p>
+            
+            <h2>🔧 Troubleshooting</h2>
+            
+            <div class="faq">
+                <h4>❓ App isn't hearing me / Microphone not working</h4>
+                <p><strong>Solution:</strong></p>
+                <ol>
+                    <li>Go to <strong>Settings → GRIOT → Microphone</strong></li>
+                    <li>Make sure it's set to <strong>Allow</strong></li>
+                    <li>Restart the app</li>
+                    <li>Ensure your device microphone isn't blocked or damaged</li>
+                </ol>
+            </div>
+            
+            <div class="faq">
+                <h4>❓ Translation isn't appearing</h4>
+                <p><strong>Solution:</strong></p>
+                <ul>
+                    <li>Check your internet connection (required for most translations)</li>
+                    <li>Try offline mode for common phrases</li>
+                    <li>Speak more clearly and slowly</li>
+                    <li>Reduce background noise</li>
+                    <li>Ensure the correct languages are selected</li>
+                </ul>
+            </div>
+            
+            <div class="faq">
+                <h4>❓ Audio translation not playing</h4>
+                <p><strong>Solution:</strong></p>
+                <ul>
+                    <li>Check your device volume</li>
+                    <li>Make sure Silent Mode is off</li>
+                    <li>Try tapping the <strong>🔊 Play Again</strong> button</li>
+                    <li>Restart the app</li>
+                </ul>
+            </div>
+            
+            <div class="faq">
+                <h4>❓ Translation quality is poor</h4>
+                <p><strong>Solution:</strong></p>
+                <ul>
+                    <li>Ensure stable internet connection</li>
+                    <li>Speak clearly and at a moderate pace</li>
+                    <li>Minimize background noise</li>
+                    <li>Use simple, clear sentences</li>
+                </ul>
+            </div>
+            
+            <div class="faq">
+                <h4>❓ App is slow or freezing</h4>
+                <p><strong>Solution:</strong></p>
+                <ol>
+                    <li>Close other running apps</li>
+                    <li>Restart GRIOT</li>
+                    <li>Restart your device</li>
+                    <li>Check for app updates in the App Store</li>
+                </ol>
+            </div>
+            
+            <h2>🌍 Supported Languages</h2>
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+                <tr style="background: #667eea; color: white;">
+                    <th style="padding: 12px; text-align: left;">Language</th>
+                    <th style="padding: 12px; text-align: left;">Native Name</th>
+                    <th style="padding: 12px; text-align: center;">Offline</th>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Swahili</td>
+                    <td style="padding: 10px;">Kiswahili</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Yoruba</td>
+                    <td style="padding: 10px;">Yorùbá</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Hausa</td>
+                    <td style="padding: 10px;">Hausa</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Igbo</td>
+                    <td style="padding: 10px;">Igbo</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Zulu</td>
+                    <td style="padding: 10px;">isiZulu</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Xhosa</td>
+                    <td style="padding: 10px;">isiXhosa</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Afrikaans</td>
+                    <td style="padding: 10px;">Afrikaans</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Amharic</td>
+                    <td style="padding: 10px;">አማርኛ</td>
+                    <td style="padding: 10px; text-align: center;">❌</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Somali</td>
+                    <td style="padding: 10px;">Soomaali</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Kinyarwanda</td>
+                    <td style="padding: 10px;">Kinyarwanda</td>
+                    <td style="padding: 10px; text-align: center;">❌</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">English</td>
+                    <td style="padding: 10px;">English</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">French</td>
+                    <td style="padding: 10px;">Français</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px;">Arabic</td>
+                    <td style="padding: 10px;">العربية</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Portuguese</td>
+                    <td style="padding: 10px;">Português</td>
+                    <td style="padding: 10px; text-align: center;">✅</td>
+                </tr>
+            </table>
+            
+            <h2>💡 Tips for Best Results</h2>
+            
+            <div class="tip">
+                <strong>🎤 Speaking Tips:</strong>
+                <ul>
+                    <li>Speak clearly and at a moderate pace</li>
+                    <li>Hold the phone 6-8 inches from your mouth</li>
+                    <li>Minimize background noise</li>
+                    <li>Use complete sentences when possible</li>
+                </ul>
+            </div>
+            
+            <div class="tip">
+                <strong>📱 Device Tips:</strong>
+                <ul>
+                    <li>Keep your app updated to the latest version</li>
+                    <li>Ensure stable Wi-Fi or cellular connection</li>
+                    <li>Close unnecessary background apps</li>
+                    <li>Restart your device periodically</li>
+                </ul>
+            </div>
+            
+            <div class="tip">
+                <strong>🌍 Translation Tips:</strong>
+                <ul>
+                    <li>Simple, clear sentences translate better</li>
+                    <li>Avoid slang or very technical terms</li>
+                    <li>For conversations, let each person finish speaking</li>
+                    <li>Verify important translations with context</li>
+                </ul>
+            </div>
+            
+            <h2>📱 System Requirements</h2>
+            <ul>
+                <li><strong>iOS:</strong> iOS 15.0 or later</li>
+                <li><strong>Device:</strong> iPhone 8 or newer</li>
+                <li><strong>Internet:</strong> Required for most translations (offline mode for select phrases)</li>
+                <li><strong>Permissions:</strong> Microphone access required</li>
+                <li><strong>Storage:</strong> Approximately 50 MB</li>
+            </ul>
+            
+            <div class="contact">
+                <h2 style="color: white; margin-top: 0;">Need More Help?</h2>
+                <p style="font-size: 1.1em; margin: 20px 0;">
+                    Can't find what you're looking for? We're here to help!
+                </p>
+                <p style="font-size: 1.2em; margin: 20px 0;">
+                    📧 Email: <a href="mailto:seorem2021@gmail.com">seorem2021@gmail.com</a>
+                </p>
+                <p style="margin: 10px 0;">
+                    🔒 <a href="privacy.html">Privacy Policy</a>
+                </p>
+                <p style="font-size: 0.9em; margin-top: 20px; opacity: 0.9;">
+                    We typically respond within 24-48 hours
+                </p>
+            </div>
+            
+            <p style="text-align: center; color: #999; margin-top: 40px;">
+                Last updated: March 2026 • Version 1.0
+            </p>
+        </div>
+    </div>
+</body>
+</html>
